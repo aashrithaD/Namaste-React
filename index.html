@@ -1,0 +1,102 @@
+<!-- Using plain HTML: -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaste React</title>
+</head>
+<body>
+    <div id="root">
+        <h1>Hello World!</h1>
+    </div>
+</body>
+</html> -->
+
+<!-- Using JS: -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaste React</title>
+</head>
+<body>
+    <div id="root">
+    </div>
+    <script>
+        const heading = document.createElement("h1");
+        heading.innerHTML = "Hello World using JS";
+        const root = document.getElementById("root");
+        root.appendChild(heading);
+    </script>
+</body>
+</html> -->
+
+<!-- Using React:` -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Namaste React</title>
+  </head>
+  <body>
+    <h1> Hello above the root</h1>
+    <div id="root">
+      <h1> I am here!</h1>
+    </div>
+    <h1> Hello below the root</h1>
+    <script
+      crossorigin
+      src="https://unpkg.com/react@18/umd/react.development.js"
+    ></script>
+    <script
+      crossorigin
+      src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"
+    ></script>
+
+    <script src="./App.js"></script>
+  </body>
+</html>
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Namaste React</title>
+</head>
+<body>
+    <div id="root">
+    </div>
+
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+</body>
+</html>
+
+Now we have react super powers in our project
+i.e whatever code we right the browser will understand what is react.
+
+what is in this links?
+https://unpkg.com/react@18/umd/react.development.js :
+
+so basically react is a js library. and we adding the js script in our project.
+This file contains js code.
+and it is developed/developing by fb developers.
+we got react into our project.
+
+when we go to console and type react now, we get response that is because we
+injected it in our project.
+
+https://unpkg.com/react-dom@18/umd/react-dom.development.js :
+
+why 2 files?
+1st core of react
+2nd react library used for dom operations i.w to modify dom.
+
+2 because react does not just work on browsers, they also work on mobile
+phones -->
